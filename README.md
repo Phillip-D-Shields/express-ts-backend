@@ -54,6 +54,8 @@ app.listen(port, () => {
 ```json
 {
 ...
+"main": "dist/index.js",
+...
 "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
